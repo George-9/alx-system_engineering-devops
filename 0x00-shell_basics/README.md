@@ -1,3 +1,3 @@
 #!/bin/bash
-hello, gene.
+hello, gene. sTILL kNocking
 

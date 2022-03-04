@@ -1,2 +1,2 @@
 #!/bin/bash
-chown --from=guillaume: new_owner:betty hello
+su chown --from=guillaume -Rc betty hello

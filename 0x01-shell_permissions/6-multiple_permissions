@@ -1,2 +1,2 @@
 #!/bin/bash
-chown $whoami:[group] hello
+chmod ug+x  o+r hello

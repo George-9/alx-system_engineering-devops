@@ -1,4 +1,4 @@
 #!/bin/bash
-cat iacta | sed -n '3p'
+cat iacta | awk 'NR==3'
 
 

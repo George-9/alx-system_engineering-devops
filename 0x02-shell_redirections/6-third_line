@@ -1,0 +1,4 @@
+#!/bin/bash
+head -n 3 1-confused_smiley | tail -n 1
+
+

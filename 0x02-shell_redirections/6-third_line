@@ -1,4 +1,4 @@
 #!/bin/bash
-cat iacta | awk '{if(NR==3) print}'
+hed -n 3 iacta | tail -n 1
 
 

@@ -1,0 +1,2 @@
+#!/bin/bin
+echo $((128+$TRUEKNOWLEDGE"))

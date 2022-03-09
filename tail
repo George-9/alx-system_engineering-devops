@@ -1,0 +1,4 @@
+     1	#!/bin/bash
+     2	chmod --reference=olleh hello
+     3	#!/bin/bash
+     4	chmod --reference=olleh hello

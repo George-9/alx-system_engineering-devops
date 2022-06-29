@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | find . -type f -empty
+ls -l | find . -type f -empty | tr -d './'

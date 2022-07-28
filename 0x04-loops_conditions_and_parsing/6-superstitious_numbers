@@ -14,7 +14,7 @@ do
 
                 4)
        echo $counter
-       echo "bad luck from china"
+       echo "bad luck from China"
        ;;
 
                9)

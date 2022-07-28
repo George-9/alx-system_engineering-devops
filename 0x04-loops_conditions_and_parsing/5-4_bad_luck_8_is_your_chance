@@ -6,15 +6,15 @@
 
 counter=0
 
-while [ $counter -ne 10 ]
+while [ $counter -ne 8 ]
 do
    echo "Best School"
    ((counter+=1))
 
-   if [[ $counter == 4 ]]; then
+   if [[ $counter == 3 ]]; then
    echo "bad luck"
    fi
-   if [[ $counter == 8 ]]; then
+   if [[ $counter == 6 ]]; then
    echo "good luck"
    fi
 done

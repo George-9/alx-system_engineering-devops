@@ -6,7 +6,7 @@
 
 counter=0
 
-while [ $counter -ne 21 ]
+while [ $counter -ne 20 ]
 do
    ((counter+=1))
 

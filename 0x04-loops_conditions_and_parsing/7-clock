@@ -8,7 +8,7 @@ hourC=0
 
 echo "Hour: 0"
 
-while [ $hourC -le 11 ]
+while [ $hourC -le 12 ]
 
 do
   ((minC += 1))

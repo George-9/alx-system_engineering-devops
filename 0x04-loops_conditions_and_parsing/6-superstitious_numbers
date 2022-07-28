@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#a Bash script that loops from 1 to 10 and:
+#displays bad luck for the 4th loop iteration
+#displays good luck for the 8th loop iteration
+#displays Best School for the other iterations
+
+counter=0
+
+while [ $counter -ne 21 ]
+do
+   if [[ $counter == 4 ]]; then
+       echo $counter
+       echo "bad luck from china"
+   elif [[ $counter == 9 ]]; then
+       echo $counter
+       echo "bad luck from japan"
+   elif [[ $counter == 17 ]]; then
+       echo $counter
+       echo "bad luck from Italy"
+   else
+       echo $counter
+   fi
+   ((counter+=1))
+done

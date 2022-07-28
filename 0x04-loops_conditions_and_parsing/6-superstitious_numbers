@@ -8,17 +8,27 @@ counter=0
 
 while [ $counter -ne 21 ]
 do
-   if [[ $counter == 4 ]]; then
+   ((counter+=1))
+
+   case $counter in
+
+                4)
        echo $counter
        echo "bad luck from china"
-   elif [[ $counter == 9 ]]; then
+       ;;
+
+               9)
        echo $counter
        echo "bad luck from japan"
-   elif [[ $counter == 17 ]]; then
+       ;;
+
+              17)
        echo $counter
        echo "bad luck from Italy"
-   else
-       echo $counter
-   fi
-   ((counter+=1))
+       ;;
+
+    *)
+    echo $counter  
+    ;;
+   esac
 done

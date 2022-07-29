@@ -20,7 +20,7 @@ do
   elif [[ $checker3 == 0 ]]; then
     echo "Fizz"
 
-  elif [ $checker3 == 0 ]; then
+  elif [ $checker5 == 0 ]; then
     echo "Buzz"
 
   else echo "$counter"

@@ -10,16 +10,16 @@ if [[ -e $file ]] && [[ -d $file ]]; then
     echo "school file is not empty"
 fi
 
+if  [[ -f $file ]] && [[ -s $file ]]; then
+    echo "school file is not empty"
+fi
+
 if  [[ -f $file ]]; then
     echo "school is a regular file"
 fi
 
 if  [[ -f $file ]] && [[ ! -s $file ]]; then
     echo "school file is empty"
-fi
-
-if  [[ -f $file ]] && [[ -s $file ]]; then
-    echo "school file is not empty"
 fi
 
 if [[ ! -e $file ]]; then

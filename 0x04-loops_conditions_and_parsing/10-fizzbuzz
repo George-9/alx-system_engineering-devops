@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+counter=1
+
+while [ $counter -le 100 ]
+
+do
+  checker3=$((counter % 3))
+  checker5=$((counter % 5))
+
+  if [[ $checker3 == 0 ]] && [[ $checker5 == 0 ]]; then
+    echo "FizzBuzz"
+
+  elif [[ $checker3 == 0 ]]; then
+    echo "Fizz"
+
+  elif [ $checker3 == 0 ]; then
+    echo "Buzz"
+
+  else echo "$counter"
+
+  fi
+
+  ((counter += 1))
+
+done

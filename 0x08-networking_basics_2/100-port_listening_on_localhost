@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This script starts a localhost server
+
+nc -u localhost 98

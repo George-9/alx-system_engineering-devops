@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#This script show the IP addresses of the
+#machine
+
+cat /etc/hosts | grep "localhost$" | cut -b -10

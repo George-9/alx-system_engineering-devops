@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#a script for ping
+
+ping -c 5 $1

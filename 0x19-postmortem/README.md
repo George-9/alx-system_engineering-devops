@@ -26,7 +26,7 @@ servers could not handle all those and still serve static and dynamic content ea
 
 ## Timeline
 
-- The attack happened on Jan 6th 2022 8:00 am.
+- The attack happened on **Jan 6th 2022 8:00 am**.
 
 - We were launching new features on that day and realized that something was wrong.
 Some users called us claiming the unavailability of the website, they said it took long to load and the app(both desktop and mobile users

@@ -49,3 +49,6 @@ handle multiple requests and block excessive(DDOS) requests
 and embedded a security upgrade in our website. 
 We restarted our servers on the announced time and also did some tests which were a success.
 
+- We also added a photo of us looking like superheroes in form of cartoon, fixing the issue, it was a bonus for covering the problem.
+[Alt text](https://github.com/George-9/alx-system_engineering-devops/0x19-postmortem/superhero.png?raw=true)
+

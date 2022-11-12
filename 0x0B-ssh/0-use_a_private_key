@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
+ssh-keygen && \
 
-cat ~/.ssh/school | \
+mv ~/.ssh/id_rsa.pub ~/.ssh/school.pub && \
+cat ~/.ssh/school.pub | \
 	ssh ubuntu@3.237.39.158 \
 		"mkdir -p ~/.ssh && cat >> ~/.ssh/authorised_keys"

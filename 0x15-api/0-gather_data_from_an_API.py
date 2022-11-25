@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
-# This script gets user name from an api
-# shows the completed tasks
+"""
+    This script gets user name from an api
+    shows the completed tasks
+"""
 
 from sys import argv
 import json
@@ -11,6 +13,10 @@ user_request = request.urlopen('https://jsonplaceholder.typicode.com/users')
 todos_request = request.urlopen('https://jsonplaceholder.typicode.com/todos')
 
 def getEmployeeName(employees = [], id = 0):
+    """
+        gets the given employer name
+        from a list of many employers
+    """
     employeeName = ''
     for employee in employees:
         if employee.get('id') == id:
@@ -18,6 +24,10 @@ def getEmployeeName(employees = [], id = 0):
     return employeeName
 
 def getCompletedTodos(todos = [], id = 0):
+    """
+        gets the number of tasks,
+        completed tasks and list of completed tasks
+    """
     count = 0
     done = 0
     done_list = []

@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-"""
-    This script gets user name from an api
+'''This script gets user name from an api
     shows the completed tasks
-"""
+'''
 
 import json
 from sys import argv

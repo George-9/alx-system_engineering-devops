@@ -1,14 +1,13 @@
 #!/usr/bin/python3
-
-import json
-from sys import argv
-from urllib import urllib.request as request
-
 """
     This script gets user name from an api
     shows the completed tasks
 """
 
+
+import json
+from sys import argv
+from urllib import urllib.request as request
 
 user_request = request.urlopen('https://jsonplaceholder.typicode.com/users')
 todos_request = request.urlopen('https://jsonplaceholder.typicode.com/todos')

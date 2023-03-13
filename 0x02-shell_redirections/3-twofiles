@@ -1,0 +1,4 @@
+#!/bin/bash
+#displays the content of two files
+
+cat /etc/passwd /etc/hosts
